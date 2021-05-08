@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>クエストルーレット【MHRise】</title>
+        <script type="text/javascript" src="test.js"></script>
+    </head>
+    <body>
+        <div id='title'>
+            MHRise クエストルーレット
+        </div>
+        <div id='condition'>
+            <p>
+                <p>クエスト条件指定</p>
+                <p>
+                    <label><input type='checkbox' class='level' value='1' checked>上位</label>
+                    <label><input type='checkbox' class='level' value='2'>下位</label>
+                </p>
+                <p>
+                    <label><input type='checkbox' class='type' value='1' checked>大型狩猟</label>
+                    <label><input type='checkbox' class='type' value='2' checked>大型狩猟（捕獲）</label>
+                    <label><input type='checkbox' class='type' value='4' checked>百竜夜行</label>
+                    <label><input type='checkbox' class='type' value='5'>小型狩猟</label>
+                    <label><input type='checkbox' class='type' value='6'>納品</label>
+                    <label><input type='checkbox' class='type' value='7'>探索ツアー</label>
+                </p>
+            </p>
+            <p>
+                <input type='button' class='b_gen' id='b_gen' value='ルーレットを回す' onclick='generate()'>
+            </p>
+        </div>
+        <div id='output'>
+            <p>クエスト：<span id='name'></span></p>
+            <p>対象モンスター：<span id='target'></span></p>
+        </div>
+        <div id='memo'>
+            <p>メモ</p>
+            <li>百龍夜行は上位のヌシとイブシマキヒコしか入れてないです。</li>
+        </div>
+        <div id='history' class='history'>
+            <p>更新履歴</p>
+            <li>2021/05/08 作成</li>
+        </div>
+    </body>
+</html>
