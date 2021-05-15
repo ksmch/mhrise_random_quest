@@ -132,6 +132,7 @@ const all_quests =
         {type: 4, level: 7,name: 'ヌシ・ディアブロス（百竜夜行）',target: 'ヌシ・ディアブロス'},
         {type: 1, level: 6,name: '溶岩洞の巨大ガマ（イベクエ）',target: 'ヨツミワドウ'},
         {type: 1, level: 7,name: '影の迅竜（イベクエ）',target: 'ナルガクルガ'},
+        {type: 1, level: 3,name: '称号・モノノフの心（イベクエ）',target: 'ゴシャハギ,マガイマガド'},
     ];
 
 function generate(){
