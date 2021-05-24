@@ -133,6 +133,7 @@ const all_quests =
         {type: 1, level: 6,name: '溶岩洞の巨大ガマ（イベクエ）',target: 'ヨツミワドウ'},
         {type: 1, level: 7,name: '影の迅竜（イベクエ）',target: 'ナルガクルガ'},
         {type: 1, level: 3,name: '称号・モノノフの心（イベクエ）',target: 'ゴシャハギ,マガイマガド'},
+        {type: 1, level: 7,name: '急いては熊を仕損じる（イベクエ）',target: 'ヌシ・アオアシラ'},
     ];
 
 function generate(){
